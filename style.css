@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #cca3a3;
+}
+
+.container {
+    text-align: center;
+    background: rgb(237, 231, 231);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(220, 170, 218, 0.1);
+}
+
+#display {
+    font-size: 3em;
+    margin: 20px 0;
+}
+
+.buttons button {
+    font-size: 1em;
+    padding: 10px 20px;
+    margin: 5px;
+}
+
+.laps {
+    margin-top: 20px;
+}
+
+.laps ul {
+    list-style: none;
+    padding: 0;
+}
+
+.laps ul li {
+    font-size: 1em;
+    background: #9cbacf;
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
